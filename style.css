@@ -1,0 +1,205 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/*MENU SUPERIOR*/
+
+.header {
+  background-image: url('imagens/plano-de-fundo-header.svg');
+  height: 560px;
+}
+
+.fig-img {
+  padding-left: 100px;
+  padding-top: 62px;
+}
+
+.txt-header {
+  padding-left: 172px;
+  color: #fff;
+
+}
+
+.txt-h1 {
+  padding-top: 102px;
+  font-size: 35px;
+  line-height: 51.4px;
+  font-family: 'Inter';
+  font-weight: 500;
+}
+
+.txt-p {
+  padding-top: 22px;
+  font-family: 'Inter';
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  text-align: left;
+
+}
+
+/*MENU SUPERIOR*/
+
+
+/*SEÇÃO INFORMATIVA*/
+
+.section-superior {
+  background-color: #EAECE5;
+  display: flex;
+  height: 170px;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.conteudo-section-superior {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.p-section-superior {
+  padding-left: 20px;
+  font-family: 'Inter';
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  text-align: left;
+
+}
+
+/*SEÇÃO INFORMACIONAL */
+
+
+/*SEÇÃO VIDEO*/
+
+.secao-video {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 100px 175px;
+}
+
+.video {
+  margin-left: 80px;
+}
+
+.txt-video {
+  padding-left: 50px;
+}
+
+.txt-video h2 {
+  font-family: 'Inter';
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 48px;
+  text-align: left;
+  color: #247BA0;
+
+}
+
+.txt-video p {
+  font-family: 'Inter';
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+
+}
+
+
+/*SEÇÃO VIDEO*/
+
+
+
+
+/* CARROSEL */
+
+.carrosel {
+  background-color: #247BA0;
+  height: 444px;
+}
+
+.carrosel-h2 {
+  text-align: center;
+}
+
+.h2-carrosel {
+  font-family: 'Inter';
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 48px;
+  text-align: center;
+  color: #fff;
+  padding-top: 50px;
+}
+
+.div-cards {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 50px;
+}
+
+#seta-esquerda {
+  display: none;
+}
+
+#card3 {
+  display: none;
+}
+
+.seta {
+  cursor: pointer;
+}
+
+.seta:hover {
+  transform: translateY(-14px);
+  transition-duration: 0.5s;
+}
+
+/* CARROSEL */
+
+
+/* FORMULARIO */
+
+.div-formulario h2 {
+  font-family: 'Inter';
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 48px;
+  text-align: left;
+  text-align: center;
+  padding: 50px 100px;
+
+}
+.form-formulario{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 444px;
+  margin-top: -60px ;
+}
+.input{
+  margin-top: 35px;
+  width: 413px;
+  height: 53px;
+  background-color: #e7e7e7;
+  font-size: 18px;
+  padding-left: 30px;
+  color: black;
+  border-radius: 8px;
+  border: none;
+}
+button{
+  width: 335px;
+  height: 53px;
+  border-radius: 8px;
+  background-color: #247BA0;
+  color: #fff;
+  font-size: 18px;
+  border: none;
+  margin-top: 35px;
+}
+/* FORMULARIO */
